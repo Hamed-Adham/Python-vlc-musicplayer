@@ -208,7 +208,7 @@ song_listbox.bind("<<ListboxSelect>>", PlaySelected_f)
 song_listbox.pack(side=TOP, fill=Y)
 
 
-Message_label = Label(Information_labelframe, text='You may find a few bugs,\n Close your eyes on them\n & Enjoy your lovely Songs,\n Created By Hamed With <3',bg='#333333',
+Message_label = Label(Information_labelframe, text='Close your eyes & Enjoy your lovely Songs\n\n Created By Hamed With <3',bg='#333333',
  fg='#ff751a', height=100, font=('',8 ))
 Message_label.pack(fill=BOTH)
 
