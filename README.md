@@ -8,7 +8,8 @@ If You want to run my Musicplayer Code, You will need these:
 
 Also, I have put the Songs that i used them to test my musicplayer , you can check them out.
 
-NOTICE: Dont close white window while using Musicplayer, Just minimize it or in main.py change root = Toplevel() to root = Tk()
+NOTICE: Dont close white window while using Musicplayer, Just minimize it ;
+or in main.py change root = Toplevel() to root = Tk() then run it
 
 
 
