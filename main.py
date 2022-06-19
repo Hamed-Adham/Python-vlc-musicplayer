@@ -198,8 +198,6 @@ Speed_combobox.grid(row=0, column=1, padx=5, pady=5, ipady=2)
 
 
 JumpStep_combobox = Combobox(Speed_JumpStep_labelframe, state='readonly', width=6, values=['5', '10', '15', '20', '30'])
-JumpStep_combobox.bind("<<ComboboxSelected>>", FastForward_f)
-JumpStep_combobox.bind("<<ComboboxSelected>>", FastBackward_f)
 JumpStep_combobox.current(1)
 JumpStep_combobox.grid(row=1, column=1, padx=0, pady=5, ipady=2)
 
