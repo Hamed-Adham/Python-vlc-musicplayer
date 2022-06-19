@@ -128,10 +128,11 @@ def Previous_f():
 
 def Repeat_f():
     #double click on white part of listbox does same thing
-    if Player.is_playing() == 1:
+    Player.get_media_player().set_position(0)
+    if Player.is_playing() == 0:
         Player.get_media_player().set_position(0)
-    else:
-        pass    
+        Player.play()
+ 
 
 
 def PlaySpeed_f(Spd):
