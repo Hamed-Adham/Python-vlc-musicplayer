@@ -148,7 +148,7 @@ play_btn = Button(btn_frame,image=play_image, width=40 , height= 25, borderwidth
 play_btn.grid(row=1, column=0, padx=10, pady=8)
 
 
-pause_image = PhotoImage(file=os.path.join('Image', 'Pause.png'))
+pause_image = PhotoImage(file=os.path.join('Image', 'pause.png'))
 pause_image = pause_image.subsample(3,3)
 Pause_btn = Button(btn_frame, image=pause_image, width=40, height=25, borderwidth=0, command=Pause_f)
 Pause_btn.grid(row=1, column=1, padx=10, pady=8)
